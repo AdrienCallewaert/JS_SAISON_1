@@ -6,6 +6,36 @@
 (() => {
 
     document.getElementById("run").addEventListener("click", () => {
+        let suite = [];
+        // your code here
+        for (let i = 1; i <= 21; i++) {
+            resu = i ** 2;
+            suite.push(resu);
+        }
+        return alert(suite);
+    });
+
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+(() => {
+
+    document.getElementById("run").addEventListener("click", () => {
 
         // your code here
         let a = 0;
@@ -16,4 +46,4 @@
     });
 
 })();
-
+*/
