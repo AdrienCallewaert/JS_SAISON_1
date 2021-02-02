@@ -1,4 +1,6 @@
 
+// it's ok, captain!
+
 // 02-maths/06-fizzbuzz/script.js - 2.6: fizzbuzz
 
 (() => {
