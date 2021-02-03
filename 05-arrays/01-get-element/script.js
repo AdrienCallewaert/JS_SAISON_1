@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/01-get-element/script.js - 5.1: item in array
 
 (() => {
@@ -18,5 +20,8 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+    alert(fruits[3]);
+});
 
 })();

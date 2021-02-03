@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/04-walk-two/script.js - 5.4: walk through the list (2)
 
 
@@ -19,5 +21,11 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        fruits.forEach(fruit => {
+        alert(fruit);
+    });
+});
+
 
 })();

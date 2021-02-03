@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/01-get-element/script.js - 5.1: walk through the list
 
 
@@ -19,5 +21,13 @@
     ];
 
     // your code here
+
+    let iterator = fruits.values();
+
+    document.getElementById("run").addEventListener("click", () => {
+        for (let value of iterator) {
+            alert(value);
+        }
+    });
 
 })();

@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/06-find-in-array/script.js - 5.6: find in the array
 
 (() => {
@@ -82,4 +84,16 @@
 
     // your code here
 
+    document.getElementById("run").addEventListener("click", () => {
+        people.forEach(element => {
+            if (element.lastname == "Dupont" && element.firstname == "Jean") {
+                alert(element.email + " place " + people.indexOf(element));
+            }
+        });
+    });
+
+
 })();
+
+
+

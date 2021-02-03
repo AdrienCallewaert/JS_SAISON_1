@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/05-walk-three/script.js - 5.5: walk through the list (3)
 
 
@@ -32,5 +34,10 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        people.forEach(element => {
+            alert(element.firstname);
+        });
+    });
 
 })();
