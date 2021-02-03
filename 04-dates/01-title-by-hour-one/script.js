@@ -1,3 +1,4 @@
+// it's ok, captain!
 
 // 04-dates/01-title-by-hour-one/script.js - 4.1: text according to the hour (1)
 
@@ -8,4 +9,11 @@
 
     // your code here
 
+    let msg = "";
+    let today = new Date();
+    let currentHour = today.getHours();
+    if(currentHour<18){msg = "Hello!";}else{msg = "Good evening!";}
+    document.getElementById("target").innerHTML = msg;
+
 })();
+
