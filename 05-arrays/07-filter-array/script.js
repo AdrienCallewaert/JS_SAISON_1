@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/07-filter-array/script.js - 5.7: filter an array
 
 (() => {
@@ -81,5 +83,14 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        let tablecrea = []
+        people.forEach(element => {
+            if (element.age >= 18) {tablecrea.push(element);}
+            })
+            
+        console.log(tablecrea);
+    });
+
 
 })();
