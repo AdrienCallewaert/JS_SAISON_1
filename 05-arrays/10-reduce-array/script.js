@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/10-reduce-array/script.js - 5.10: using reducer
 
 
@@ -82,5 +84,11 @@
     ];
 
     // your code here
+
+    document.getElementById("run").addEventListener("click", ()=>{
+
+        let initialValue = 0;
+        alert(people.reduce((accumulator, currentValue) => accumulator + currentValue.age, initialValue));
+    }) 
 
 })();
