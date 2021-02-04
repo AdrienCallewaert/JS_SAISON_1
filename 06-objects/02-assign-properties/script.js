@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 //06-objects/02-assign-properties/script.js - 6.2: assign properties
 
 
@@ -19,4 +21,31 @@
         user: null,
     };
     // your code here
+
+    document.getElementById("run").addEventListener("click", () => {
+        
+        computers.forEach(Element => {
+
+            if (Element.available === undefined){
+                Element.available = defaultProps.available;
+            }
+
+            if(Element.os === undefined){
+                Element.os = defaultProps.os;
+            }
+
+            if(Element.user === undefined){
+                Element.user = defaultProps.user;
+            }
+        });
+        
+        console.log(computers);
+
+    });
+
+
+
+
+
 })();
+
