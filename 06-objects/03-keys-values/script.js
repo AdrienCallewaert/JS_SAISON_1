@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 06-objects/03-keys-values/script.js - 6.3: keys & values
 
 
@@ -11,4 +13,12 @@
         status: "married",
     };
     // your code here
+
+    document.getElementById("run").addEventListener("click", ()=>{
+
+        console.log(Object.keys(person));
+        console.log(Object.values(person));
+
+    }) 
+
 })();
