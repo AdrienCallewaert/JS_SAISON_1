@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 05-arrays/13-find-in-set/script.js - 5.13: Find in a Set
 
 
@@ -15,4 +17,16 @@
     ]);
 
     // your code here
+
+    document.getElementById("run").addEventListener("click", ()=>{
+
+        let counter = 0;
+        people.forEach(element => {
+            counter += 1;
+        });
+
+        alert(counter)
+        alert(people.has("Alexandre"));
+
+    }) 
 })();
