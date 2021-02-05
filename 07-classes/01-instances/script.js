@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 07-classes/01-instances/script.js - 7.1: instances
 
 
@@ -9,4 +11,16 @@
         }
     }
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        const skitty = new Cat("Skitty", "9 years");
+        const pixel = new Cat("Pixel", "6 years");
+    
+        console.log(skitty, pixel);
+
+    }) 
+
+
 })();
+
+
+
