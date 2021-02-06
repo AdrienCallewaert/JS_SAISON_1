@@ -1,3 +1,5 @@
+// it's ok, captain!
+
 // 08-dom/06-mini-carousel/script.js - 8.6: mini carousel
 
 
@@ -12,5 +14,14 @@
     ];
 
     // your code here
+    let next = [1];
 
+    document.getElementById("next").addEventListener("click", ()=>{
+        document.querySelector("img").setAttribute("src", gallery[next ++]);
+
+        if (next == gallery.length) {
+            next = [0];
+        }
+
+    })
 })();

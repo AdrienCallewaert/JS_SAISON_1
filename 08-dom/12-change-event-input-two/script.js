@@ -1,3 +1,5 @@
+// it's ok, captain! ou pas hein
+
 // 08-dom/12-change-event-input-two/script.js - 8.12: change event (2)
 
 
