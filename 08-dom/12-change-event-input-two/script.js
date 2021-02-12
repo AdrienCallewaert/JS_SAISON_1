@@ -6,5 +6,14 @@
 (() => {
 
     // your code here
-
-})();
+       function size(){
+            let size = ["x-small","small","medium","large","x-large"];
+            let fontsize = Math.floor(Math.random() * size.length);
+       return size[fontsize]
+       }
+   
+       let span = document.getElementById('target').textContent.split('').map( lettre => `<span class ='`+ lettre +`' style ='font-size:` +size()+ `' >`+ lettre +'</span>').join('');
+   
+       return document.getElementById('target').innerHTML = span
+       
+   })();
